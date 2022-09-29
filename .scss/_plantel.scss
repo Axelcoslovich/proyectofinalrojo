@@ -1,0 +1,385 @@
+
+
+.plantel {
+
+
+    margin-right: 10px;
+    margin-bottom: 50px;
+
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        background: rgb(255,249,136);
+        background: linear-gradient(0deg, rgba(255,249,136,1) 71%, rgba(252,249,183,1) 100%);
+        border: 10px;
+
+    }
+
+    img {
+
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    h5 {
+        padding-left: 10px;
+        color: $rojo;
+    }
+
+
+    .num {
+
+        display: inline-block;
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Staatliches', cursive;
+        font-size: 35px;
+        margin-right: 20px;
+        margin-top: 10px;
+
+
+    }
+
+    .card-title {
+
+        font-size: 30px;
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Staatliches', cursive;
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 10px;
+
+    }
+
+}
+
+.arqueros {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "milton bacchia segovia sosa";
+    gap: 3px;
+
+
+}
+
+.arq1 {
+    grid-area: milton;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+
+
+}
+
+.arq2 {
+    grid-area: bacchia;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+
+}
+
+.arq3 {
+    grid-area: segovia;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.arq4 {
+    grid-area: sosa;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+
+.defensores {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "asis barreto bustos costa"
+        "chaco laso ortega ostachuk";
+    gap: 3px;
+
+
+}
+
+.def1 {
+    grid-area: asis;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+
+
+}
+
+.def2 {
+    grid-area: barreto;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.def3 {
+    grid-area: bustos;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.def4 {
+    grid-area: costa;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.def5 {
+    grid-area: chaco;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.def6 {
+    grid-area: laso;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.def7 {
+    grid-area: ortega;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.def8 {
+    grid-area: ostachuk;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.mediocampistas {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "benavidez mingo gonzalez pacchini"
+        "pozo roa romero soñora";
+    gap: 3px;
+
+
+}
+
+.med1 {
+    grid-area: benavidez;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.med2 {
+    grid-area: mingo;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.med3 {
+    grid-area: gonzalez;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+
+.med4 {
+    grid-area: pacchini;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.med5 {
+    grid-area: pozo;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.med6 {
+    grid-area: roa;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.med7 {
+    grid-area: romero;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.med8 {
+    grid-area: soñora;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.delanteros {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "marquez fernandez sayago batallini";
+    gap: 3px;
+
+}
+
+.del1 {
+    grid-area: marquez;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.del2 {
+    grid-area: fernandez;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.del3 {
+    grid-area: sayago;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+}
+
+.del4 {
+    grid-area: batallini;
+    border: 2px;
+    border-color: $blanco;
+    border-style: groove;
+
+}
+
+@media only screen and (max-width: 1340px) {
+
+    .arqueros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "milton bacchia"
+            "segovia sosa";
+    }
+
+    .defensores {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+            "asis barreto"
+            "bustos costa"
+            "chaco laso"
+            "ortega ostachuk";
+
+    }
+
+    .mediocampistas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+            "benavidez mingo"
+            "gonzalez pacchini"
+            "pozo roa"
+            "romero soñora";
+
+    }
+    .delanteros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "marquez fernandez"
+        "sayago batallini";
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    .arqueros {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+            "milton"
+            "bacchia"
+            "segovia"
+            "sosa";
+    }
+
+    .defensores {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas:
+            "asis"
+            "barreto"
+            "bustos"
+            "costa"
+            "chaco"
+            "laso"
+            "ortega"
+            "ostachuk";
+
+    }
+
+    .mediocampistas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas:
+            "benavidez"
+            "mingo"
+            "gonzalez"
+            "pacchini"
+            "pozo"
+            "roa"
+            "romero"
+            "soñora";
+
+    }
+    .delanteros {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "marquez"
+        "fernandez"
+        "sayago"
+        "batallini";
+    }
+
+}

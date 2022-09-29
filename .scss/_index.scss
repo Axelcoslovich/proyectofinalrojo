@@ -1,0 +1,546 @@
+.otrasNoticias {
+
+
+    margin-left: -30px;
+
+
+    .accordion-body {
+        margin-left: 30px;
+    }
+
+    .accordion-item {
+        background-color: #4f0505;
+        color: white;
+    }
+
+    .accordion-header {
+        background-color: red;
+        color: white;
+    }
+
+    .accordion-button {
+        background-color: #4f0505;
+        color: white;
+    }
+
+    #flush-collapseOne {
+        background-color: #f00000;
+
+    }
+
+}
+
+
+.card-group {
+    height: 90%;
+    width: 90%;
+    margin-left: 20px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "noti1 noti2"
+        "noti3 noti4"
+        "noti5 noti6";
+
+
+    #img2 {
+
+        height: 84%;
+    }
+
+    #img3 {
+
+        height: 84.5%;
+    }
+
+    #img6 {
+
+        height: 83%;
+    }
+
+
+
+    #cardI1 {
+        grid-area: noti1;
+        background-color: $rojo;
+        border: 3px;
+        border-color: $blanco;
+        border-style: double;
+
+
+
+
+
+    }
+
+    #cardI2 {
+        grid-area: noti2;
+        background-color: $rojo;
+        border: 3px;
+        border-color: $blanco;
+        border-style: double;
+
+
+    }
+
+    #cardI3 {
+        grid-area: noti3;
+        background-color: $rojo;
+        border: 3px;
+        border-color: $blanco;
+        border-style: double;
+
+    }
+
+    #cardI4 {
+        grid-area: noti4;
+        background-color: $rojo;
+        border: 3px;
+        border-color: $blanco;
+        border-style: double;
+    }
+
+    #cardI5 {
+        grid-area: noti5;
+        background-color: $rojo;
+        border: 3px;
+        border-color: $blanco;
+        border-style: double;
+    }
+
+    #cardI6 {
+        grid-area: noti6;
+        background-color: $rojo;
+        border: 3px;
+        border-color: $blanco;
+        border-style: double;
+
+    }
+
+
+
+}
+
+.noticia1 {
+    height: 50%;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+    border-radius: 3%;
+}
+
+.tablasFechas {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 14em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    background: radial-gradient(circle, #f00000 0%, #4f0505 100%);
+
+
+
+    .zona1 {
+
+        display: inline-block;
+
+
+
+    }
+
+    .zona2 {
+
+
+
+        display: inline-block;
+
+
+    }
+
+    .table {
+
+        display: inline;
+        font-style: italic;
+        text-align: center;
+        color: $blanco;
+
+    }
+
+    tbody {
+        border: solid 3px $blanco;
+    }
+
+}
+
+.partidos {
+
+    margin-left: 1em;
+
+    .fechas {
+        display: inline-block;
+        margin-left: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+
+
+    }
+
+
+
+    .fecha2 {
+        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-right: 1em;
+        display: inline-block;
+
+    }
+
+    .fecha3 {
+
+        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-right: 1em;
+        display: inline-block;
+
+    }
+
+
+
+    .fecha4 {
+
+        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-right: 1em;
+        display: inline-block;
+
+    }
+
+    .fecha5 {
+
+        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-right: 1em;
+        display: inline-block;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 451px) {
+
+    
+
+nav {
+
+  
+    
+    .container {
+        margin-left: 1px;
+        width: auto;
+       
+      }
+      
+      .topnav a {
+        float: left;
+        text-align: center;
+        padding: 8px 7px;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+    }
+
+    .tablasFechas {
+
+        display: block;
+        overflow-x: auto;
+    
+
+    .zona1 {
+
+
+        margin-left: -2em;
+        grid-area: zona1;
+        padding-bottom: 50px;
+    }
+
+    .zona2 {
+
+        margin-left: -2em;
+        grid-area: zona2;
+        padding-bottom: 50px
+    }
+
+    .zona1 {
+        th {
+            padding-left: 11.5px;
+        }
+    }
+    }
+
+    .partidos 
+    {
+
+    img {
+        width: 275px;
+        height: 200px;
+    }
+    
+    .fecha2 {
+        margin-left: -5em;
+    
+    }
+
+    .fecha3 {
+        margin-left: -5em;
+ 
+    }
+
+    .fecha4 {
+        margin-left: -5em;
+
+    }
+
+    .fecha5 {
+        margin-left: -5em;
+    }
+}
+}
+
+
+
+@media only screen and (max-width: 769px) {
+
+
+    .card-group {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "noti1"
+            "noti2"
+            "noti3"
+            "noti4"
+            "noti5"
+            "noti6";
+    }
+
+
+    #cardI1 {
+        grid-area: noti1;
+    }
+
+    #cardI2 {
+        grid-area: noti2;
+    }
+
+    #cardI3 {
+        grid-area: noti3;
+    }
+
+    #cardI4 {
+        grid-area: noti4;
+    }
+
+    #cardI5 {
+        grid-area: noti5;
+    }
+
+    #cardI6 {
+        grid-area: noti6;
+    }
+
+    .tablasFechas {
+        padding-left: -10px;
+        margin-left: -10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "zona1"
+            "zona2";
+    }
+
+    .zona1 {
+
+        grid-area: zona1;
+        padding-bottom: 50px;
+
+
+
+    }
+
+    .zona2 {
+
+
+        grid-area: zona2;
+        padding-bottom: 50px;
+
+
+
+
+
+    }
+
+    .partidos {
+        height: 80em;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "fecha2 fecha3"
+            "fecha4 fecha5";
+    }
+
+    .fecha2 {
+        grid-area: fecha2;
+        padding-left: 5px;
+
+    }
+
+    .fecha3 {
+        grid-area: fecha3;
+        padding-left: 5px;
+
+    }
+
+    .fecha4 {
+        grid-area: fecha4;
+        padding-left: 5px;
+
+    }
+
+    .fecha5 {
+        grid-area: fecha5;
+        padding-left: 5px;
+
+    }
+
+    .zona1 {
+        th {
+            padding-left: 11.5px;
+        }
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1080px) {
+
+
+    .card-group {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "noti1"
+            "noti2"
+            "noti3"
+            "noti4"
+            "noti5"
+            "noti6";
+    }
+
+
+    #cardI1 {
+        grid-area: noti1;
+    }
+
+    #cardI2 {
+        grid-area: noti2;
+    }
+
+    #cardI3 {
+        grid-area: noti3;
+    }
+
+    #cardI4 {
+        grid-area: noti4;
+    }
+
+    #cardI5 {
+        grid-area: noti5;
+    }
+
+    #cardI6 {
+        grid-area: noti6;
+    }
+
+    .tablasFechas {
+        padding-left: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "zona1"
+            "zona2";
+    }
+
+    .zona1 {
+        display: inline-block;
+        grid-area: zona1;
+        width: auto;
+        height: 50%;
+        table-layout: fixed;
+        padding-bottom: 50px;
+    }
+
+    .zona2 {
+        display: inline-block;
+        grid-area: zona2;
+        width: auto;
+        height: 50%;
+        table-layout: fixed;
+
+    }
+
+    .partidos {
+        height: 80em;
+        padding-left: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "fecha2 fecha3"
+            "fecha4 fecha5";
+    }
+
+    .fecha2 {
+        grid-area: fecha2;
+        padding-left: 5px;
+
+    }
+
+    .fecha3 {
+        grid-area: fecha3;
+        padding-left: 5px;
+
+    }
+
+    .fecha4 {
+        grid-area: fecha4;
+        padding-left: 5px;
+
+    }
+
+    .fecha5 {
+        grid-area: fecha5;
+        padding-left: 5px;
+
+    }
+
+    .zona1 {
+        th {
+            padding-left: 11.5px;
+        }
+    }
+
+}

@@ -1,0 +1,1433 @@
+@charset "UTF-8";
+.otrasNoticias {
+  margin-left: -30px;
+}
+
+.otrasNoticias .accordion-body {
+  margin-left: 30px;
+}
+
+.otrasNoticias .accordion-item {
+  background-color: #4f0505;
+  color: white;
+}
+
+.otrasNoticias .accordion-header {
+  background-color: red;
+  color: white;
+}
+
+.otrasNoticias .accordion-button {
+  background-color: #4f0505;
+  color: white;
+}
+
+.otrasNoticias #flush-collapseOne {
+  background-color: #f00000;
+}
+
+.card-group {
+  height: 90%;
+  width: 90%;
+  margin-left: 20px;
+  gap: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "noti1 noti2" "noti3 noti4" "noti5 noti6";
+}
+
+.card-group #img2 {
+  height: 84%;
+}
+
+.card-group #img3 {
+  height: 84.5%;
+}
+
+.card-group #img6 {
+  height: 83%;
+}
+
+.card-group #cardI1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: noti1;
+  background-color: red;
+  border: 3px;
+  border-color: white;
+  border-style: double;
+}
+
+.card-group #cardI2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: noti2;
+  background-color: red;
+  border: 3px;
+  border-color: white;
+  border-style: double;
+}
+
+.card-group #cardI3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: noti3;
+  background-color: red;
+  border: 3px;
+  border-color: white;
+  border-style: double;
+}
+
+.card-group #cardI4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: noti4;
+  background-color: red;
+  border: 3px;
+  border-color: white;
+  border-style: double;
+}
+
+.card-group #cardI5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: noti5;
+  background-color: red;
+  border: 3px;
+  border-color: white;
+  border-style: double;
+}
+
+.card-group #cardI6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: noti6;
+  background-color: red;
+  border: 3px;
+  border-color: white;
+  border-style: double;
+}
+
+.noticia1 {
+  height: 50%;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 25%;
+  border-radius: 3%;
+}
+
+.tablasFechas {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 14em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  background: radial-gradient(circle, #f00000 0%, #4f0505 100%);
+}
+
+.tablasFechas .zona1 {
+  display: inline-block;
+}
+
+.tablasFechas .zona2 {
+  display: inline-block;
+}
+
+.tablasFechas .table {
+  display: inline;
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
+
+.tablasFechas tbody {
+  border: solid 3px white;
+}
+
+.partidos {
+  margin-left: 1em;
+}
+
+.partidos .fechas {
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.partidos .fecha2 {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-right: 1em;
+  display: inline-block;
+}
+
+.partidos .fecha3 {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-right: 1em;
+  display: inline-block;
+}
+
+.partidos .fecha4 {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-right: 1em;
+  display: inline-block;
+}
+
+.partidos .fecha5 {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-right: 1em;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 451px) {
+  nav .container {
+    margin-left: 1px;
+    width: auto;
+  }
+  nav .topnav a {
+    float: left;
+    text-align: center;
+    padding: 8px 7px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .tablasFechas {
+    display: block;
+    overflow-x: auto;
+  }
+  .tablasFechas .zona1 {
+    margin-left: -2em;
+    grid-area: zona1;
+    padding-bottom: 50px;
+  }
+  .tablasFechas .zona2 {
+    margin-left: -2em;
+    grid-area: zona2;
+    padding-bottom: 50px;
+  }
+  .tablasFechas .zona1 th {
+    padding-left: 11.5px;
+  }
+  .partidos img {
+    width: 275px;
+    height: 200px;
+  }
+  .partidos .fecha2 {
+    margin-left: -5em;
+  }
+  .partidos .fecha3 {
+    margin-left: -5em;
+  }
+  .partidos .fecha4 {
+    margin-left: -5em;
+  }
+  .partidos .fecha5 {
+    margin-left: -5em;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .card-group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "noti1" "noti2" "noti3" "noti4" "noti5" "noti6";
+  }
+  #cardI1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: noti1;
+  }
+  #cardI2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: noti2;
+  }
+  #cardI3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: noti3;
+  }
+  #cardI4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: noti4;
+  }
+  #cardI5 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: noti5;
+  }
+  #cardI6 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: noti6;
+  }
+  .tablasFechas {
+    padding-left: -10px;
+    margin-left: -10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "zona1" "zona2";
+  }
+  .zona1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: zona1;
+    padding-bottom: 50px;
+  }
+  .zona2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: zona2;
+    padding-bottom: 50px;
+  }
+  .partidos {
+    height: 80em;
+    padding-left: 5px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "fecha2 fecha3" "fecha4 fecha5";
+  }
+  .fecha2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: fecha2;
+    padding-left: 5px;
+  }
+  .fecha3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: fecha3;
+    padding-left: 5px;
+  }
+  .fecha4 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: fecha4;
+    padding-left: 5px;
+  }
+  .fecha5 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: fecha5;
+    padding-left: 5px;
+  }
+  .zona1 th {
+    padding-left: 11.5px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .card-group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "noti1" "noti2" "noti3" "noti4" "noti5" "noti6";
+  }
+  #cardI1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: noti1;
+  }
+  #cardI2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: noti2;
+  }
+  #cardI3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: noti3;
+  }
+  #cardI4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: noti4;
+  }
+  #cardI5 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: noti5;
+  }
+  #cardI6 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: noti6;
+  }
+  .tablasFechas {
+    padding-left: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "zona1" "zona2";
+  }
+  .zona1 {
+    display: inline-block;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: zona1;
+    width: auto;
+    height: 50%;
+    table-layout: fixed;
+    padding-bottom: 50px;
+  }
+  .zona2 {
+    display: inline-block;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: zona2;
+    width: auto;
+    height: 50%;
+    table-layout: fixed;
+  }
+  .partidos {
+    height: 80em;
+    padding-left: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "fecha2 fecha3" "fecha4 fecha5";
+  }
+  .fecha2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: fecha2;
+    padding-left: 5px;
+  }
+  .fecha3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: fecha3;
+    padding-left: 5px;
+  }
+  .fecha4 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: fecha4;
+    padding-left: 5px;
+  }
+  .fecha5 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: fecha5;
+    padding-left: 5px;
+  }
+  .zona1 th {
+    padding-left: 11.5px;
+  }
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #500505;
+}
+
+.container1 {
+  margin: 1px;
+  border-radius: 13px;
+  background: radial-gradient(circle, #f00000 0%, #4f0505 100%);
+  padding: 20px;
+}
+
+label {
+  color: white;
+}
+
+.plantel {
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.plantel .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff988;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(71%, #fff988), to(#fcf9b7));
+  background: linear-gradient(0deg, #fff988 71%, #fcf9b7 100%);
+  border: 10px;
+}
+
+.plantel img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.plantel h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.plantel h5 {
+  padding-left: 10px;
+  color: red;
+}
+
+.plantel .num {
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Staatliches', cursive;
+  font-size: 35px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.plantel .card-title {
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Staatliches', cursive;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.arqueros {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "milton bacchia segovia sosa";
+  gap: 3px;
+}
+
+.arq1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: milton;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.arq2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: bacchia;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.arq3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: segovia;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.arq4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: sosa;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.defensores {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "asis barreto bustos costa" "chaco laso ortega ostachuk";
+  gap: 3px;
+}
+
+.def1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: asis;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.def2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: barreto;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.def3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: bustos;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.def4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: costa;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.def5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: chaco;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.def6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: laso;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.def7 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: ortega;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.def8 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: ostachuk;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.mediocampistas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "benavidez mingo gonzalez pacchini" "pozo roa romero soñora";
+  gap: 3px;
+}
+
+.med1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: benavidez;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.med2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: mingo;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.med3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: gonzalez;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.med4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: pacchini;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.med5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: pozo;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.med6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: roa;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.med7 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: romero;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.med8 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: soñora;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.delanteros {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "marquez fernandez sayago batallini";
+  gap: 3px;
+}
+
+.del1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: marquez;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.del2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: fernandez;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.del3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: sayago;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+.del4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: batallini;
+  border: 2px;
+  border-color: white;
+  border-style: groove;
+}
+
+@media only screen and (max-width: 1340px) {
+  .arqueros {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "milton bacchia" "segovia sosa";
+  }
+  .defensores {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "asis barreto" "bustos costa" "chaco laso" "ortega ostachuk";
+  }
+  .mediocampistas {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "benavidez mingo" "gonzalez pacchini" "pozo roa" "romero soñora";
+  }
+  .delanteros {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "marquez fernandez" "sayago batallini";
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .arqueros {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "milton" "bacchia" "segovia" "sosa";
+  }
+  .defensores {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[8];
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas: "asis" "barreto" "bustos" "costa" "chaco" "laso" "ortega" "ostachuk";
+  }
+  .mediocampistas {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[8];
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas: "benavidez" "mingo" "gonzalez" "pacchini" "pozo" "roa" "romero" "soñora";
+  }
+  .delanteros {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "marquez" "fernandez" "sayago" "batallini";
+  }
+}
+
+.tituloFoto {
+  margin-left: 15px;
+}
+
+.padre {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr [3];
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr [4];
+  grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
+  gap: 5px;
+}
+
+.foto1 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: foto1;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto2 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: foto2;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto3 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: foto3;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto4 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: foto4;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto5 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: foto5;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto6 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: foto6;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto7 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: foto7;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto8 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: foto8;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto9 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: foto9;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto10 {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: foto10;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto11 {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: foto11;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.foto12 {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: foto12;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 620px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .imagenLogo {
+    grid-area: logo;
+  }
+  .secciones {
+    grid-area: secciones;
+  }
+  .padre {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr [12];
+    grid-template-rows: repeat(12, 1fr);
+        grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9" "foto10" "foto11" "foto12";
+  }
+  .foto1 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: foto1;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto2 {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: foto2;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto3 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: foto3;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto4 {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: foto4;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto5 {
+    -ms-grid-row: 5;
+    grid-row: 5;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: foto5;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto6 {
+    -ms-grid-row: 6;
+    grid-row: 6;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: foto6;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto7 {
+    -ms-grid-row: 7;
+    grid-row: 7;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    grid-area: foto7;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto8 {
+    -ms-grid-row: 8;
+    grid-row: 8;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+    grid-area: foto8;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto9 {
+    -ms-grid-row: 9;
+    grid-row: 9;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+    grid-area: foto9;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto10 {
+    -ms-grid-row: 10;
+    grid-row: 10;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 10;
+    -ms-grid-column: 1;
+    grid-area: foto10;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto11 {
+    -ms-grid-row: 11;
+    grid-row: 11;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 11;
+    -ms-grid-column: 1;
+    grid-area: foto11;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .foto12 {
+    -ms-grid-row: 12;
+    grid-row: 12;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 12;
+    -ms-grid-column: 1;
+    grid-area: foto12;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.imagenCopa {
+  margin-bottom: 10%;
+  margin-left: 20%;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.imagenCopa:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.imagenCopa {
+  padding-top: 15px;
+  width: 80px;
+  height: 80px;
+}
+
+.padreHistoria {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr [6];
+  grid-template-columns: repeat(6, 1fr);
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+      grid-template-areas: "intercontinental libertadores supercopa sudamericana recopa suruga ";
+  gap: 3px;
+  padding-top: 10px;
+}
+
+.imagenCopa.intercontinental {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: intercontinental;
+}
+
+.imagenCopa.libertadores {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: libertadores;
+}
+
+.imagenCopa.supercopa {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: supercopa;
+}
+
+.imagenCopa.sudamericana {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: sudamericana;
+}
+
+.imagenCopa.recopa {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: recopa;
+}
+
+.imagenCopa.suruga {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 5;
+  grid-column: 5;
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+  grid-area: suruga;
+}
+
+/*animaciones copas*/
+.cantidad {
+  color: white;
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Staatliches', cursive;
+}
+
+@media only screen and (max-width: 1080px) {
+  .padreHistoria {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "intercontinental libertadores" "supercopa sudamericana"  "recopa suruga";
+  }
+  .imagenCopa.intercontinental {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: intercontinental;
+  }
+  .imagenCopa.libertadores {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: libertadores;
+  }
+  .imagenCopa.interamericana {
+    grid-area: interamericana;
+    width: 150px;
+    height: 135px;
+  }
+  .imagenCopa.supercopa {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: supercopa;
+  }
+  .imagenCopa.sudamericana {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: sudamericana;
+  }
+  .imagenCopa.recopa {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: recopa;
+  }
+  .imagenCopa.suruga {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: suruga;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*secciones en general*/
+.bg-img {
+  background-image: url(https://media.lv12.com.ar/p/840d94fc7f9407d1b2cc2f3032f5f15f/adjuntos/261/imagenes/001/733/0001733946/1200x0/smart/imagepng.png);
+  min-height: 380px;
+  border-radius: 13%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background: radial-gradient(circle, #f00000 0%, #4f0505 100%);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #801111;
+}
+
+footer {
+  color: cornsilk;
+  text-decoration: underline overline;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  background: radial-gradient(circle, #f00000 0%, #4f0505 100%);
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: red;
+  font-family: fantasy;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin-left: 15px;
+}
+
+h2 {
+  color: white;
+  text-decoration: underline overline;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  color: white;
+  text-decoration: underline overline;
+  padding-top: 20px;
+}
+
+body {
+  background-color: red;
+}
+
+p {
+  margin: 10px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #801111;
+}
+/*# sourceMappingURL=style.css.map */
